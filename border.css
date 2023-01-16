@@ -1,0 +1,30 @@
+h1{
+    margin: 300px;
+    padding: 100px;
+    outline: 5px solid green;
+    border-left: 50px solid green;
+    border-left-style: dotted;
+    border-bottom: 100px solid orange;
+    border-bottom-style: groove;
+    border-right: 50px solid blue;
+    border-top: 100px solid red;
+    border-top-style: double;
+    border-right-style: dashed;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
+}
+h2{
+    margin: 300px;
+    padding: 100px;
+    outline: 5px solid green;
+    border-left: 20px;
+    border-right: 20px;
+    border-top: 20px;
+    border-bottom: 20px;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-top-style: groove;
+    border-bottom-style: double;
+}
