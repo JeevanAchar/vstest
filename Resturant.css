@@ -1,0 +1,325 @@
+*{
+    transition: all 1s;
+    /* margin: 0px;
+    margin-top: 10px; */
+    margin: 0;
+}
+/* .navfirst{
+    /* position: fixed; */
+
+ul{
+    display: flex;
+    list-style-type:none;
+    background: rgba(12, 11, 9, 0.6);
+    border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+    color: white;
+    padding: 15px 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    /* position: fixed; */
+    font-size: 20px;
+    /* justify-content: space-between!important; */
+    /* display: flex!important; */
+    /* margin-top: 50px; */
+}
+/* .active:hover{
+    color: #cda45e;
+} */
+a{
+    text-decoration: none;
+    margin-left: 80px;
+    color: white;
+
+}
+
+.firstPage{
+    height: 710px;
+    background-image: url(https://media.timeout.com/images/105239239/image.jpg);
+    background-size: cover;
+    margin-right: auto;
+}
+.c{
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.534);
+}
+.d{
+    margin-bottom:100px ;
+    background-color: orange;
+    height: 30px;
+    width: 100px;
+    border: 20px;
+    border-radius: 20px;   
+    color: #eee; 
+}
+.e{
+    margin-bottom:100px ;
+    margin-left: 100px;
+    background-color: orange;
+    border: 1px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    color: #eee;
+}
+/* background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+
+.about{
+    display: flex;
+    background-color: rgba(0, 255, 255, 0.247);
+    background-size: cover;
+    background-color:transparent;
+
+}
+
+
+#secondPage{
+    background-image: url(./about-bg.jpg);
+    color: #eee;
+    overflow: hidden;
+}
+/* .secondPImg{
+    height: 500px;
+    width:600px;
+    overflow: hidden;
+    border: 1px;
+} */
+#secondPage h2{
+ font-size: 30px;
+ font-weight: 900;
+}
+#secondPage p{
+ font-size: 20px;
+ font-style: italic;
+}
+.secondP{
+    display: flex;
+    position: relative;
+}
+.secondPa{
+    margin: 30px 0px 15px 40px;
+}
+.secondImg{
+    margin: 50px;
+    margin-top: 40px;
+    border: 4px solid rgba(195, 195, 9, 0.597);
+    position: relative;
+}
+/* .secondImg:hover{
+    overflow: hidden;
+    position: relative;
+    height: 520px;
+    width: 620px;
+} */
+
+#fourthPage{
+    background-color: rgb(40, 35, 35);
+    padding: 10px;
+}
+#fourthPage h2{
+    font-size: 40px;
+    color: rgb(195, 195, 4);
+}
+#fourthPage p{
+    color: white;
+    font-size: 20px;
+    padding-left: 0;
+}
+.header{
+    display: flex;
+}
+.test{
+    display: flex;
+}
+.fourthPa{
+    /* margin-left:20px; */
+    display: flex;
+}
+/* .fourthP2{
+    margin-left: 30px;
+} */
+.fourthImg{
+    border: 1px;
+    border-radius: 50%;
+    padding: 15px 15px 0px 15px;
+}
+.Anchor{
+    color: #eee;
+    text-decoration: none;
+}
+.Anchor:hover{
+    color:  rgb(195, 195, 4);
+}
+.ayy{
+    color: #eee;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.ayy:hover{
+    color: rgb(195, 195, 4);
+}
+
+#thirdPage h2{
+    font-size: 40px;
+    color: rgb(195, 195, 4);
+    margin-left: 10px;
+}
+#thirdPage  p{
+    color: white;
+    /* font-size: 20px; */
+    padding: 20px;
+}
+#thirdPage{
+    display: block;
+    background-color: black;
+}
+.thirdP{
+    display: flex;
+}
+.thirdPagep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 190px;
+    height: 250px;
+    width: 500px;
+    background-color:rgb(40, 35, 35) ;
+    color: white;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.thirdPagep:hover{
+    display: block;
+    /* font-weight: 600; */
+    font-size: 17px;
+    overflow: hidden;
+    background-color: #cda45e;
+} 
+
+#fifthPage{
+    background-color: rgb(40, 35, 35);
+    color: #eee;
+    padding: 20px;
+    padding-bottom: 0;
+}
+#fifthPage p{
+    color: rgb(112, 96, 96);
+}
+.fifthP{
+    display: flex;
+}
+.vl{
+    border-right: 6px solid #cda45e;
+    height: 300px;
+    margin: 30px;
+    padding-right: 20px;    
+}
+.vl:hover{
+    color: #cda45e;
+}
+.vll{
+    font-size: 20px;
+    margin: 20px;
+}
+.fifthImg{
+    margin: 20px;
+    margin-left: 60px;
+}
+
+#sixthPage{
+    background-image: url(./events-bg.jpg) ;    
+    color: #eee;
+    height: 600px;
+    /* width: 100%; */
+    padding: 10px;
+    padding-bottom: 0;
+}
+.sixthP{
+    display: flex;
+}
+.sixthImg{
+    border: 1px;
+    border-radius: 20px;
+    margin: 20px 30px ;
+}
+.sixthPa{
+    margin: 23px 0px 10px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#seventhPage{
+    background-color: rgb(40, 35, 35);
+    padding: 10px;
+}
+.seventhForm{
+    display: inline-block;
+    margin: 20px;
+}
+.seventhButton{
+    background: #cda45e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 620px;
+    
+}
+.seventhf1{
+    height: 40px;
+    width: 250px;
+    margin: 30px 30px;
+    padding: 5px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background:  rgb(43, 37, 37);
+    border-color: #cda45e;
+    color: white;
+    border-style:inset;
+}
+
+#eightPage{
+    background-color: rgb(40, 35, 35);
+    padding: 10px;
+    padding-right: 0;
+}
+.eightP{
+    /* display: flex;
+    position: relative;
+    margin: 20px;
+    margin-right: 0;
+    padding-right: 0;
+    /* margin-right: 30px;
+    margin-left: 10px; */
+    /* overflow: hidden;
+    border: 1px; */
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+    position: relative;
+    display: flex;
+}
+.eightPageImg{
+    height: 300px;
+    width: 300px;
+}
+.eightPageImg:hover{
+    height: 320px;
+    width: 320px;
+}
+.eightPImg{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    /* margin-right: 30px; */
+    /* margin-left: 10px; */
+    overflow: hidden;
+    border: 1px;
+}
+#footer{
+    background-color: rgb(40, 35, 35);
+    color: #eee;
+    font-style: italic;
+    font-size: 14px;
+}
