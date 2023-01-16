@@ -1,0 +1,21 @@
+*{
+    transition: all 1s;
+}
+h1:hover{
+    background-color: aqua;
+    font-size: 40px;
+}
+.a{
+    height: 300px;
+    width: 300px;
+    border: 1px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, red , yellow, blue, green );
+}
+.a:hover{
+    height: 300px;
+    width: 300px;
+    border: 1px;
+    border-radius: 50%;
+    background-image: radial-gradient(blue, yellow, pink);
+}

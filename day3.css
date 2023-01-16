@@ -1,0 +1,13 @@
+/* *{
+    background-color: aqua;
+} */
+
+h1{
+    background-color: red;
+}
+h2,h3{
+    background-color: blue;
+}
+h1.jee{
+    background-color: antiquewhite;
+}

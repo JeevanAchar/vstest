@@ -1,0 +1,40 @@
+.a{
+    margin: 300px;
+    padding: 100px;
+    border: 10px solid royalblue;
+    background-color: chartreuse;
+    transform: rotate(10deg);
+    animation: abc 2s infinite;
+}
+@keyframes abc{
+    50%{transform: rotateX(180deg);}
+    50%{transform: rotateX(180deg);}
+}
+.b{
+    margin: 300px;
+    padding: 100px;
+    border: 10px solid royalblue;
+    background-color: chartreuse;
+    transform: skew(23deg);
+}
+/* .c{
+    margin: 3000px;
+    padding: 100px;
+    border: 1px solid rebeccapurple;
+    background-color: aquamarine;
+    transform: scaleY(2);
+} */
+
+#d{
+    height: 300px;
+    width: 300px;
+    border: 1px;
+    border-radius: 50%;
+    background-image: repeating-conic-gradient(red 10deg, black 20deg , blue 30deg);
+}
+#d:hover{
+    animation: def 1s infinite;
+}
+@keyframes def{
+    100%{transform: rotate(180deg)}
+}

@@ -1,0 +1,55 @@
+.firstPage{
+    background-image: url(netFlix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    color: red;
+}
+.firstPage h1,h2,h3{
+    color: white;
+}
+.firstPage h1{
+    font-size: 50px;
+    font-family: italic;
+}
+.SecondPage{
+    background-image: url(./black\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+}
+.SecondPage h1 {
+    font-size: 50px;
+    color: white;
+}
+#ThirdPage{
+    background-image: url(./black\ img.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+#ThirdPage h1{
+    font-size: 30px;
+    color: white;
+}
+.Img3{
+    padding-left: 0;
+}
+.FourthPage{
+    background-image: url(./black\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+}
+.FourthPage h1{
+    color: white;
+}
+.FifthPage {
+    background-image: url(./black\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+}
+h1{
+    color: white;
+}

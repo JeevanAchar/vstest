@@ -1,0 +1,36 @@
+.a{
+    height: 200px;
+    width: 220px;
+}
+.a:hover{
+    filter: grayscale(0.5);
+}
+.b{
+    height: 200px;
+    width: 220px;
+}
+.b:hover{
+    filter: blur(1px);
+}
+
+.c{
+    height: 200px;
+    width: 220px;
+}
+.c:hover{
+    filter: contrast(90%);
+}
+.d{
+    height: 200px;
+    width: 220px;
+}
+.d:hover{
+    filter:hue-rotate(80deg);
+}
+.e{
+    height: 200px;
+    width: 220px;
+}
+.e:hover{
+    filter:drop-shadow(10px 10px 3px orange);
+}

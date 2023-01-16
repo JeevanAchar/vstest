@@ -1,0 +1,25 @@
+#Hover{
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    /* overflow: hidden; */
+}
+.j1{
+    height: 200px;
+    width: 220px;
+    position: relative;
+    margin-right: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+    border: 1px;
+}
+.u{
+    height: 200px;
+    width: 200px;
+}
+.u:hover{
+    height: 220px;
+    width: 220px;
+}

@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(to left, yellow , blue, red, green);
+}
+/* body{
+    background-image: radial-gradient( yellow , blue, red, green);
+} */

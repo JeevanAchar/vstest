@@ -1,0 +1,17 @@
+
+
+#Karnataka{
+    z-index: 3;
+    position: relative;
+    top: 60px;
+}
+#Karnataka1{
+    color: white;
+    z-index: 1;
+    position: relative;
+    left: 20px;
+    background-color: none;
+}
+#Karnataka:hover{
+    z-index: 0;
+}
